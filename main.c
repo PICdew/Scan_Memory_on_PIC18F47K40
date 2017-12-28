@@ -18,9 +18,10 @@
 
 //******************************************************************************
 //The lastest Two address holds Memory's CRC value (computed by a external application). 
-//See CRC Calculator on Microchip Site.
+//Download CRC Calculator on Microchip Site: 
+//         http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en572174
 
-const int CRC_checkValue @ 0x1FFFE=0x4712;
+const int CRC_checkValue @ 0x1FFFE=0x189C;
 
 //****************************************************************************
 
